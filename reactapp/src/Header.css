@@ -1,0 +1,27 @@
+#header{
+    background-color: red;
+    height:60px;
+    width:100%
+}
+
+a{
+    text-decoration: none;
+}
+
+#headingListing{
+    color:red;
+    margin: 26%;
+    height:60px;
+}
+
+#logo_main{
+    position: absolute;
+}
+
+.logoRight{
+    height:60px;
+    width:200px;
+    margin-right: 1%;
+    margin-top: 1%;
+    float:right;
+}

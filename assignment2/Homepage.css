@@ -1,0 +1,162 @@
+body{
+    margin:auto
+}
+
+#main{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+#search{
+    background-image: url('food-wallpaper.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:red;
+    background-size: 100% 500px;
+    width:100%;
+    height: 500px;
+}
+
+#login{
+    margin-left: 70%;
+}
+
+#login> a{
+    text-decoration: none;
+    color:black;
+    font-size:30px;
+}
+
+#logo{
+    font-size:90px;
+    color:red;
+    text-align: center;
+    background-color:white;
+    height:150px;
+    width:150px;
+    margin-left: 45%;
+    border-radius: 50%;
+}
+
+#logo > span {
+    font-weight: bold;
+    position: absolute;
+    margin-left: -25px;
+    margin-top: 10px
+}
+
+#heading{
+    text-align: center;
+    color:white;
+    font-size:35px;
+    margin-top:30px;
+}
+
+#dropdown{
+    height:60px;
+    width:60%;
+    margin-left: 28%;
+    margin-top: 3%;
+}
+
+select{
+    height:60px;
+    width:30%;
+    font-size:20px
+}
+
+#restaurants{
+    width:50%;
+}
+
+/* Quick Search Css*/
+
+#quicksearch{
+    width:80%;
+    height: 500px;
+    margin-left:10%;
+    margin-top:2%
+}
+
+#QuickHeading{
+    color:#192f60;
+    font-size:30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display:block;
+    font-weight:bold
+}
+
+#QuickSubHeading{
+    color:gray;
+    font-size:20px;
+    margin-top: 20px;
+    position: absolute;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: .01;
+}
+
+.tileContainer{
+    height: 180px;
+    box-shadow: 0px 3px 15px black;
+    display: inline-block;
+    margin-left: 2%;
+    margin-top: 4%;
+    
+}
+
+#mainTileContainer{
+    margin-top: 3%;
+}
+
+.tileComponent1{
+}
+
+.tileComponent2{
+    margin-left:20px;
+    margin-top: 20px;
+}
+
+.tileComponent1 > img{
+    height: 180px;
+    width:80%
+}
+
+.componentHeading{
+    color: #192f60;
+    font-size:25px;
+    font-weight: bold
+}
+
+.componentSubHeading{
+    color: gray;
+    font-size:18px;
+    line-height:1;
+}
+
+.tileContainer:hover{
+   transform: scale(1.1)
+}
+
+.bike{
+    margin-left:1%;
+    animation: moveBike 20s infinite;
+}
+
+/*
+.bike{
+    margin-left:1%;
+    transition: margin-left 5s;
+}
+
+
+.bike:hover{
+    margin-left:90%
+}
+*/
+
+@keyframes moveBike {
+    0% {margin-left:10%}
+    20% {margin-left:40%}
+    60% {margin-left:65%}
+    80% {margin-left:95%}
+    100% {margin-left:0%}
+}
